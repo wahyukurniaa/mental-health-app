@@ -1,4 +1,4 @@
-import 'package:bloc_mentalhealth_app/features/presentation/pages/meditation_screen.dart';
+import 'package:bloc_mentalhealth_app/presentation/meditation_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
