@@ -1,4 +1,4 @@
-import 'package:bloc_mentalhealth_app/presentation/meditation_screen.dart';
+import 'package:bloc_mentalhealth_app/presentation/pages/onboarding/onboarding.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MeditationScreen(),
+      home: const OnBoardingPage(),
     );
   }
 }
